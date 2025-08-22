@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Libft - 42 Cursus 🚀</h1>
+  <h1>Libft (1337)--> 42 from holy graph</h1>
   <p>
     My first C library, the foundational project of the 1337/42 curriculum.
   </p>
@@ -11,12 +11,12 @@
 
 ---
 
-### ## 📜 About The Project
+### ---> 📜 About The Project
 This project is the cornerstone of the 1337 curriculum. The goal is to build a personal library (`libft.a`) by re-implementing a set of standard C functions. This library will serve as a fundamental toolkit for all future C projects.
 
 ---
 
-### ## ✨ Implemented Functions
+### ---> ✨ Implemented Functions
 This is a list of the functions completed so far:
 
 | Function           | Description                                  | Category     |
@@ -34,7 +34,7 @@ This is a list of the functions completed so far:
 
 ---
 
-### ## 🚀 How To Use
+### ---> 🚀 How To Use
 
 #### 1. Compilation
 To create the library `libft.a`, run the following command in your terminal:
