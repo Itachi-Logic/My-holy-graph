@@ -30,7 +30,7 @@ Here is a list of the projects I have completed, organized by curriculum circles
 ### ➤ Circle 01: The Cursus
 | Project Name | Description | Language(s) | Status | Grade |
 | :--- | :--- | :--- | :--- | :--- |
-| **[Libft](./libft)** | A foundational C library with re-implementations of standard functions. | C, Makefile | ✅ Completed | 125% |
+| **[Libft](./libft)** | A foundational C library with re-implementations of standard functions. | C, Makefile | ⏳ In Progress |      |
 | `get_next_line` | A function to read a line from a file descriptor. | C | ⏳ Upcoming | |
 | `ft_printf` | A complete re-implementation of the `printf` function. | C | ⏳ Upcoming | |
 | `...` | | | | |
