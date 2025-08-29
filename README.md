@@ -1,11 +1,8 @@
 <div align="center">
-  <h1>رحلتي في 1337/42 | My 1337/42 Journey</h1>
+  <h1>My 1337/42 Journey | My-holy-graph</h1>
   <p>
-    مستودع لتتبع تقدمي وتوثيق المشاريع التي أنجزتها خلال منهجي التعليمي في مدرسة 1337.
-  </p>
-  <p><em>
     This repository tracks my progress and documents the projects I complete throughout my 1337/42 curriculum journey.
-  </em></p>
+  </p>
 </div>
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
@@ -14,8 +11,15 @@
 
 ---
 
-## 🗺️ About This Repository
-Welcome to my "Holy Graph"! This repository is my personal portfolio and a living document of my journey as a student at **1337**, part of the **42 Network**. Each folder represents a project, containing the source code and a specific README detailing its objectives and my approach.
+## 📜 About This Repository
+Welcome to my "Holy Graph"! This repository is my personal portfolio and a living document of my journey as a student at **1337**, part of the **42 Network**. Each folder represents a project, containing the source code and a specific README detailing its objectives and my approach to solving the challenges.
+
+---
+
+## 📂 Table of Contents
+1. [Completed Projects](#-completed-projects)
+2. [Core Skills & Technologies](#️-core-skills--technologies)
+3. [Contact](#-contact)
 
 ---
 
@@ -28,13 +32,13 @@ Here is a list of the projects I have completed, organized by curriculum circles
 | :--- | :--- | :--- | :--- | :--- |
 | **[Libft](./libft)** | A foundational C library with re-implementations of standard functions. | C, Makefile | ✅ Completed | 125% |
 | `get_next_line` | A function to read a line from a file descriptor. | C | ⏳ Upcoming | |
-| `ft_printf` | A re-implementation of the `printf` function. | C | ⏳ Upcoming | |
+| `ft_printf` | A complete re-implementation of the `printf` function. | C | ⏳ Upcoming | |
 | `...` | | | | |
 
 *(This table will be updated as I progress through the curriculum.)*
 
-### ➤ Circle 02, 03, ...
-*(Sections for future projects will be added here.)*
+### ➤ Future Circles
+*(Sections for future projects will be added here as they are completed.)*
 
 ---
 
