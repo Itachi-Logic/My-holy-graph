@@ -6,7 +6,7 @@
 </div>
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-![School](https://img.shields.io/badge/School-1337%20Khouribga-black)
+![School](https://img.shields.io/badge/School-1337%20rabat-black)
 ![Author](https://img.shields.io/badge/Author-sboutaye-orange)
 
 ---
