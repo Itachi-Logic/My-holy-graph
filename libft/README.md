@@ -17,11 +17,11 @@ This project is the cornerstone of the 1337 curriculum. The goal is to build a p
 ---
 
 ## 📂 Table of Contents
-1. [Implemented Functions](#-implemented-functions)
-    - [Character Functions](#-character-functions)
-    - [Memory Functions](#-memory-functions)
-    - [String Functions](#-string-functions)
-    - [Conversion Functions](#-conversion-functions)
+1. [Implemented Functions](#-implemented-functions)  
+    - [Character Functions](#-character-functions)  
+    - [Memory Functions](#-memory-functions)  
+    - [String Functions](#-string-functions)  
+    - [Conversion Functions](#-conversion-functions)  
 2. [How To Use](#-how-to-use)
 
 ---
@@ -52,11 +52,20 @@ This is a list of the functions completed so far, categorized by their purpose.
 | `ft_strlen`    | Calculates the length of a string.           |
 | `ft_strcpy`    | Copies a string (unsafe).                    |
 | `ft_strncpy`   | Copies a specific number of characters from a string. |
+| `ft_strcat`    | Concatenates two strings (unsafe).            |
+| `ft_strncat`   | Concatenates up to n characters from a string. |
+| `ft_strlcat`   | Concatenates two strings with size limit.     |
+| `ft_strchr`    | Locates the first occurrence of a character in a string. |
+| `ft_strrchr`   | Locates the last occurrence of a character in a string. |
+| `ft_strcmp`    | Compares two strings.                        |
+| `ft_strncmp`   | Compares two strings up to n characters.     |
+| `ft_strstr`    | Finds the first occurrence of a substring.   |
+| `ft_strnstr`   | Finds the first occurrence of a substring within n characters. |
 
 ### ➤ Conversion Functions
 | Function  | Description                        |
 | :-------- | :--------------------------------- |
-| `ft_atoi` | Converts a string to an integer. |
+| `ft_atoi` | Converts a string to an integer.   |
 
 ---
 
@@ -84,13 +93,13 @@ gcc main.c -L. -lft -o my_program
 int main(void)
 {
     char str[] = "hello world";
-    
+
     // Using a function from your library
     ft_memset(str, '!', 5);
-    
+
     // ft_memset will turn "hello world" into "!!!!! world"
     printf("%s\n", str);
-    
+
     return (0);
 }
 ```
