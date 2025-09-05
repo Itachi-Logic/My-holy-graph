@@ -1,35 +1,36 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_strcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: Said Boutayeb <sboutaye@student.1337.ma>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/08/24 17:54:36 by Said Boutayeb     #+#    #+#             */
-/*   Updated: 2025/08/31 18:26:32 by Said Boutayeb    ###   ########.fr       */
+/*   Created: 2025/09/02 17:30:48 by Said Boutayeb     #+#    #+#             */
+/*   Updated: 2025/09/02 19:30:32 by Said Boutayeb    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
+#include "libft.h"
 
-size_t	ft_strlen(const char *s)
+int	ft_strcmp(const char *s1, const char *s2)
 {
-	size_t	i;
-
-	i = 0;
-	while (s[i])
-		i++;
-	return (i);
+	while (*s1 && *(s1++) == *(s2++))
+		;
+	return (*(--s1) - *(--s2));
 }
 /*
-int	main(int ac, char **av)
+int main(void)
 {
-	if (ac != 2)
-	{
-		printf("give me a string please!");
-		return (1);
-	}
-	printf("leanth is: %zu\n", ft_strlen(av[1]));
-	return (0);
+	char	str1[] = "asaid";
+	char	str2[] = "bsaid";
+	printf("Strcmp is: %i\n", ft_strcmp(str1, str2));
+
+	//while (*s1 && *s1 == *s2)
+	//{
+	//	s1++;
+	//	s2++;
+	//}
+        //return (*s1 - *s2);
 }
 */

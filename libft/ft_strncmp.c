@@ -1,35 +1,36 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: Said Boutayeb <sboutaye@student.1337.ma>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/08/24 17:54:36 by Said Boutayeb     #+#    #+#             */
-/*   Updated: 2025/08/31 18:26:32 by Said Boutayeb    ###   ########.fr       */
+/*   Created: 2025/09/05 17:01:39 by Said Boutayeb     #+#    #+#             */
+/*   Updated: 2025/09/05 18:11:02 by Said Boutayeb    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
+#include "libft.h"
 
-size_t	ft_strlen(const char *s)
+int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
-	size_t	i;
-
-	i = 0;
-	while (s[i])
-		i++;
-	return (i);
+	if (n == 0)
+		return (0);
+	while (*s1 == *s2 && *s2 && n > 1)
+	{
+		s1++;
+		s2++;
+		n--;
+	}
+	return (*s1 - *s2);
 }
 /*
-int	main(int ac, char **av)
+int main(void)
 {
-	if (ac != 2)
-	{
-		printf("give me a string please!");
-		return (1);
-	}
-	printf("leanth is: %zu\n", ft_strlen(av[1]));
-	return (0);
+	char	str1[] = "012a";
+	char	str2[] = "12b";
+	printf("Strncmp is: %i\n", ft_strncmp(str1, str2, 0));
+
 }
 */

@@ -1,35 +1,39 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: Said Boutayeb <sboutaye@student.1337.ma>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/08/24 17:54:36 by Said Boutayeb     #+#    #+#             */
-/*   Updated: 2025/08/31 18:26:32 by Said Boutayeb    ###   ########.fr       */
+/*   Created: 2025/09/01 20:28:13 by Said Boutayeb     #+#    #+#             */
+/*   Updated: 2025/09/02 17:34:46 by Said Boutayeb    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
+#include "libft.h"
 
-size_t	ft_strlen(const char *s)
+char	*ft_strrchr(const char *s, int c)
 {
-	size_t	i;
+	char	*str;
+	char	*find;
 
-	i = 0;
-	while (s[i])
-		i++;
-	return (i);
+	find = NULL;
+	str = (char *) s;
+	while (*str)
+	{
+		if (*str == (char) c)
+			find = str;
+		str++;
+	}
+	if (*str == (char) c)
+		find = str;
+	return (find);
 }
 /*
-int	main(int ac, char **av)
+int main()
 {
-	if (ac != 2)
-	{
-		printf("give me a string please!");
-		return (1);
-	}
-	printf("leanth is: %zu\n", ft_strlen(av[1]));
-	return (0);
+	char	str[] = "1said is a 1:good programer find me";
+	printf("I FOND THIS: %s", ft_strrchr(str, '1'));
 }
 */
