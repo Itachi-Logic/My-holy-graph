@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Libft (1337) - 42 from holy graph</h1>
+  <h1>Libft (1337) - The First Step into the Deep</h1>
   <p>
     My first C library, the foundational project of the 1337/42 curriculum.
   </p>
@@ -11,32 +11,86 @@
 
 ---
 
-### >>> 📜 About The Project
-This project is the cornerstone of the 1337 curriculum. The goal is to build a personal library (`libft.a`) by re-implementing a set of standard C functions. This library will serve as a fundamental toolkit for all future C projects.
+## 📜 About The Project
+This project is the cornerstone of the 1337 curriculum. The goal is to build a personal library (`libft.a`) by re-implementing a set of standard C functions. This library will serve as a fundamental toolkit for all future C projects at the school.
 
 ---
 
-### >>> ✨ Implemented Functions
-This is a list of the functions completed so far:
-
-| Function           | Description                                  | Category     |
-| :----------------- | :------------------------------------------- | :----------- |
-| `ft_isalpha`       | Checks if a character is alphabetic.         | Character    |
-| `ft_isdigit`       | Checks if a character is a digit.            | Character    |
-| `ft_isalnum`       | Checks if a character is alphanumeric.       | Character    |
-| `ft_isascii`       | Checks if a character is in the ASCII set.   | Character    |
-| `ft_isprint`       | Checks if a character is printable.          | Character    |
-| `ft_memset`        | Fills a block of memory with a specific value. | Memory       |
-| `ft_bzero`         | Fills a block of memory with zeros.          | Memory       |
-| `ft_atoi`          | Converts a string to an integer.             | String Conv. |
-
-*(This list will be updated as more functions are completed)*
+## 📂 Table of Contents
+1. [Implemented Functions](#-implemented-functions)
+    - [Character Functions](#-character-functions)
+    - [Memory Functions](#-memory-functions)
+    - [String Functions](#-string-functions)
+    - [Conversion Functions](#-conversion-functions)
+2. [How To Use](#-how-to-use)
 
 ---
 
-### >>> 🚀 How To Use
+## ✨ Implemented Functions
+This is a list of the functions completed so far, categorized by their purpose.
 
-#### 1. Compilation
-To create the library `libft.a`, run the following command in your terminal:
+### ➤ Character Functions
+| Function     | Description                                  |
+| :----------- | :------------------------------------------- |
+| `ft_isalpha` | Checks for an alphabetic character.          |
+| `ft_isdigit` | Checks for a digit (0-9).                    |
+| `ft_isalnum` | Checks for an alphanumeric character.        |
+| `ft_isascii` | Checks whether a character fits into the ASCII character set. |
+| `ft_isprint` | Checks for any printable character.          |
+
+### ➤ Memory Functions
+| Function      | Description                                  |
+| :------------ | :------------------------------------------- |
+| `ft_memset`   | Fills a block of memory with a specific byte value. |
+| `ft_bzero`    | Fills a block of memory with zero-bytes.     |
+| `ft_memcpy`   | Copies a memory area (unsafe for overlap).   |
+| `ft_memmove`  | Copies a memory area safely, even if it overlaps. |
+
+### ➤ String Functions
+| Function       | Description                                  |
+| :------------- | :------------------------------------------- |
+| `ft_strlen`    | Calculates the length of a string.           |
+| `ft_strcpy`    | Copies a string (unsafe).                    |
+| `ft_strncpy`   | Copies a specific number of characters from a string. |
+
+### ➤ Conversion Functions
+| Function  | Description                        |
+| :-------- | :--------------------------------- |
+| `ft_atoi` | Converts a string to an integer. |
+
+---
+
+## 🚀 How To Use
+
+### 1. Library Compilation
+To create the static library file `libft.a`, run the following command in your terminal:
 ```bash
 make
+```
+
+### 2. Using the Library in Your Project
+To compile your program (e.g., `main.c`) with the `libft` library, use the following command:
+```bash
+# -L. tells the compiler to look for libraries in the current directory
+# -lft tells the compiler to link against the libft library
+gcc main.c -L. -lft -o my_program
+```
+
+### 3. Example `main.c`
+```c
+#include "libft.h"
+#include <stdio.h>
+
+int main(void)
+{
+    char str[] = "hello world";
+    
+    // Using a function from your library
+    ft_memset(str, '!', 5);
+    
+    // ft_memset will turn "hello world" into "!!!!! world"
+    printf("%s\n", str);
+    
+    return (0);
+}
+```
