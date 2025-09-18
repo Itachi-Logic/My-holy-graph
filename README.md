@@ -12,14 +12,29 @@
 ---
 
 ## 📜 About This Repository
+
 Welcome to my "Holy Graph"! This repository is my personal portfolio and a living document of my journey as a student at **1337**, part of the **42 Network**. Each folder represents a project, containing the source code and a specific README detailing its objectives and my approach to solving the challenges.
 
 ---
 
 ## 📂 Table of Contents
-1. [Completed Projects](#-completed-projects)
-2. [Core Skills & Technologies](#️-core-skills--technologies)
-3. [Contact](#-contact)
+
+1. [Project Subjects](#-project-subjects)
+2. [Completed Projects](#-completed-projects)
+3. [Core Skills & Technologies](#️-core-skills--technologies)
+4. [Contact](#-contact)
+
+---
+
+## 📋 Project Subjects
+
+Access to project subjects and PDFs for reference and study.
+
+| Subject | Description | PDF Link | Status |
+| :--- | :--- | :--- | :--- |
+| **[Libft](./subject_libft)** | Your first C library - foundational functions | [📄 PDF](./subject_libft) | ✅ Available |
+
+*(More subjects will be added as I progress)*
 
 ---
 
@@ -38,11 +53,13 @@ Here is a list of the projects I have completed, organized by curriculum circles
 *(This table will be updated as I progress through the curriculum.)*
 
 ### ➤ Future Circles
+
 *(Sections for future projects will be added here as they are completed.)*
 
 ---
 
 ## 🛠️ Core Skills & Technologies
+
 This is a summary of the core technologies and skills I am developing during this journey.
 
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
@@ -54,5 +71,6 @@ This is a summary of the core technologies and skills I am developing during thi
 ---
 
 ## 📞 Contact
+
 * **1337 Intra Profile:** `sboutaye`
 * **GitHub:** [@said-boutayeb](https://github.com/said-boutayeb)
