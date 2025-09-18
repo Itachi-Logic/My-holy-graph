@@ -19,22 +19,22 @@ Welcome to my "Holy Graph"! This repository is my personal portfolio and a livin
 
 ## 📂 Table of Contents
 
-1. [Project Subjects](#-project-subjects)
+1. [Project Subjects & Solutions](#-project-subjects--solutions)
 2. [Completed Projects](#-completed-projects)
 3. [Core Skills & Technologies](#️-core-skills--technologies)
 4. [Contact](#-contact)
 
 ---
 
-## 📋 Project Subjects
+## 📋 Project Subjects & Solutions
 
-Access to project subjects and PDFs for reference and study.
+Access to project subjects (PDFs) and my implementations/solutions.
 
-| Subject | Description | PDF Link | Status |
-| :--- | :--- | :--- | :--- |
-| **[Libft](./subject_libft)** | Your first C library - foundational functions | [📄 PDF](./subject_libft) | ✅ Available |
+| Project | Description | Subject PDF | My Solution | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **Libft** | My first C library - foundational functions | [📄 Subject](./subject_libft) | [💻 My Code](./libft) | ⏳ In Progress |
 
-*(More subjects will be added as I progress)*
+*(More projects will be added as I progress through the curriculum)*
 
 ---
 
