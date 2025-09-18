@@ -1,35 +1,41 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_memdel.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: Said Boutayeb <sboutaye@student.1337.ma>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/08/24 17:54:36 by Said Boutayeb     #+#    #+#             */
-/*   Updated: 2025/09/17 18:36:50 by said-boutayeb    ###   ########.fr       */
+/*   Created: 2025/09/06 17:26:45 by Said Boutayeb     #+#    #+#             */
+/*   Updated: 2025/09/12 20:11:27 by said-boutayeb    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
+#include <stdlib.h>
+#include "libft.h"
 
-size_t	ft_strlen(const char *s)
+void	ft_memdel(void **ap)
 {
-	size_t	i;
-
-	i = 0;
-	while (s[i] != '\0')
-		i++;
-	return (i);
+	free(*ap);
+	*ap = NULL;
 }
 /*
-int	main(int ac, char **av)
+int	main(void)
 {
-	if (ac != 2)
+	char	*str_m;
+	int	i;
+
+	str_m = ft_memalloc(3);
+	i = 0;
+	while (i <= 2)
 	{
-		printf("give me a string please!");
-		return (1);
+		printf("index %i is: %i\n", i, str_m[i]);
+		i++;
 	}
-	printf("leanth is: %zu\n", ft_strlen(av[1]));
-	return (0);
+	ft_memdel((void **)&str_m);
+	if (str_m == NULL)
+		printf("it is work!\n");
+	else 
+		return (0);
 }
 */

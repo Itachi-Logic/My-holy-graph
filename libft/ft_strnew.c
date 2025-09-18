@@ -1,35 +1,39 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_strnew.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Said Boutayeb <sboutaye@student.1337.ma>   +#+  +:+       +#+        */
+/*   By: said-boutayeb <marvin@42.fr>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/08/24 17:54:36 by Said Boutayeb     #+#    #+#             */
-/*   Updated: 2025/09/17 18:36:50 by said-boutayeb    ###   ########.fr       */
+/*   Created: 2025/09/12 20:11:46 by said-boutayeb     #+#    #+#             */
+/*   Updated: 2025/09/13 18:37:15 by said-boutayeb    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
+#include "libft.h"
 
-size_t	ft_strlen(const char *s)
+char	*ft_strnew(size_t size)
 {
-	size_t	i;
+	char	*str;
 
-	i = 0;
-	while (s[i] != '\0')
-		i++;
-	return (i);
+	str = ft_memalloc(size + 1);
+	if (str == NULL)
+		return (NULL);
+	return (str);
 }
 /*
-int	main(int ac, char **av)
+int main(void)
 {
-	if (ac != 2)
+	int	i;
+	char	*str;
+
+	str = ft_strnew(5);
+	i = 0;
+	while (i < 6)
 	{
-		printf("give me a string please!");
-		return (1);
+		printf("index nember %i is: %d\n", i, str[i]);
+		i++;
 	}
-	printf("leanth is: %zu\n", ft_strlen(av[1]));
-	return (0);
 }
 */
