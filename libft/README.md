@@ -84,26 +84,60 @@ This is a list of the functions completed so far, categorized by their purpose.
 
 ## 🚀 How To Use
 
-### 1. Library Compilation
+### 1. Getting Started
 
-To create the static library file `libft.a`, run the following command in your terminal:
+First, clone or download this repository to your local machine:
 
+```bash
+git clone <your-repo-url>
+cd libft
+```
+
+### 2. Makefile Commands
+
+This project includes a comprehensive Makefile with the following commands:
+
+| Command       | Description                                    |
+| :------------ | :--------------------------------------------- |
+| `make`        | Compiles all source files and creates `libft.a` |
+| `make all`    | Same as `make` (default target)                |
+| `make clean`  | Removes all object files (.o)                 |
+| `make fclean` | Removes object files and the library file     |
+| `make re`     | Rebuilds everything from scratch (fclean + all) |
+
+#### Compilation Process
+
+When you run `make`, the following happens:
+1. Each `.c` file is compiled to a `.o` object file using `gcc -Wall -Wextra -Werror`
+2. All object files are archived into a static library `libft.a` using the `ar` command
+3. The library is ready to use in your projects
+
+### 3. Basic Usage
+
+#### Step 1: Compile the Library
 ```bash
 make
 ```
 
-### 2. Using the Library in Your Project
+#### Step 2: Include in Your Project
+To use the library in your C program, include the header file:
 
-To compile your program (e.g., `main.c`) with the `libft` library, use the following command:
-
-```bash
-# -L. tells the compiler to look for libraries in the current directory
-# -lft tells the compiler to link against the libft library
-gcc main.c -L. -lft -o my_program
+```c
+#include "libft.h"
 ```
 
-### 3. Example `main.c`
+#### Step 3: Compile Your Program
+```bash
+# Method 1: Link with the static library
+gcc main.c -L. -lft -o my_program
 
+# Method 2: Compile with library directly
+gcc main.c libft.a -o my_program
+```
+
+### 4. Example Usage
+
+#### Simple Example (`main.c`)
 ```c
 #include "libft.h"
 #include <stdio.h>
@@ -112,11 +146,85 @@ int main(void)
 {
     char str[] = "hello world";
     
-    // Using a function from your library
+    // Using ft_memset from your library
     ft_memset(str, '!', 5);
-    // ft_memset will turn "hello world" into "!!!!! world"
-    printf("%s\n", str);
+    printf("After ft_memset: %s\n", str);
+    // Output: "!!!!! world"
+    
+    // Using ft_strlen
+    printf("Length: %zu\n", ft_strlen(str));
+    
+    // Using ft_atoi
+    int num = ft_atoi("42");
+    printf("Number: %d\n", num);
     
     return (0);
 }
+```
+
+#### Advanced Example
+```c
+#include "libft.h"
+#include <stdio.h>
+
+int main(void)
+{
+    // Memory allocation example
+    char *new_str = ft_strnew(10);
+    if (new_str)
+    {
+        ft_strcpy(new_str, "Hello");
+        printf("Created string: %s\n", new_str);
+        ft_strdel(&new_str);  // Free and set to NULL
+    }
+    
+    // String comparison
+    char *str1 = "Hello";
+    char *str2 = "World";
+    
+    if (ft_strcmp(str1, str2) == 0)
+        printf("Strings are equal\n");
+    else
+        printf("Strings are different\n");
+    
+    // Character checking
+    char c = 'A';
+    if (ft_isalpha(c))
+        printf("'%c' is alphabetic\n", c);
+    
+    return (0);
+}
+```
+
+### 5. Compilation Flags
+
+The library is compiled with strict flags for better code quality:
+- `-Wall`: Enable all common warnings
+- `-Wextra`: Enable extra warnings
+- `-Werror`: Treat warnings as errors
+
+### 6. Troubleshooting
+
+#### Common Issues:
+
+**Library not found:**
+```bash
+# Make sure you're in the correct directory
+ls -la libft.a
+
+# Check if library was created successfully
+make re
+```
+
+**Compilation errors:**
+```bash
+# Clean and rebuild
+make fclean
+make
+```
+
+**Header file not found:**
+```bash
+# Make sure libft.h is in the same directory as your source files
+# Or specify the path: gcc main.c -I./path/to/headers -L. -lft
 ```
