@@ -69,6 +69,11 @@ This is a list of the functions completed so far, categorized by their purpose.
 | `ft_strncmp`   | Compares two strings up to n characters.     |
 | `ft_strstr`    | Finds the first occurrence of a substring.   |
 | `ft_strnstr`   | Finds the first occurrence of a substring within n characters. |
+
+### ➤ Additional String Functions
+
+| Function       | Description                                  |
+| :------------- | :------------------------------------------- |
 | `ft_strnew`    | Allocates memory for a new string of specified size. |
 | `ft_strdel`    | Frees a string and sets the pointer to NULL. |
 | `ft_strclr`    | Sets every character of a string to '\0'.    |
