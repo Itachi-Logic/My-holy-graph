@@ -73,6 +73,8 @@ This is a list of the functions completed so far, categorized by their purpose.
 | `ft_strdel`    | Frees a string and sets the pointer to NULL. |
 | `ft_strclr`    | Sets every character of a string to '\0'.    |
 | `ft_striter`   | Applies a function to each character of a string. |
+| `ft_striteri`  | Applies a function to each character of a string with index. |
+| `ft_strmap`    | Creates a new string by applying a function to each character. |
 
 ### ➤ Conversion Functions
 

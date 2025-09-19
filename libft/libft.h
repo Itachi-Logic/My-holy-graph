@@ -6,7 +6,7 @@
 /*   By: Said Boutayeb <sboutaye@student.1337.ma>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/17 20:14:57 by Said Boutayeb     #+#    #+#             */
-/*   Updated: 2025/09/18 19:40:53 by said-boutayeb    ###   ########.fr       */
+/*   Updated: 2025/09/19 20:09:38 by said-boutayeb    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #ifndef LIBFT_H
@@ -28,9 +28,11 @@ void	ft_strdel(char **as);
 void	ft_memdel(void **ap);
 void	ft_bzero(void *s, size_t n);
 void	ft_striter(char *s, void (*f)(char *));
+void	ft_striteri(char *s, void (*f)(unsigned int, char *));
 void	*ft_memset(void *b, int c, size_t len);
 void	*ft_memcpy(void *dest, const void *src, size_t n);
 void	*ft_memmove(void *dest, const void *src, size_t n);
+void	*ft_memalloc(size_t size);
 char	*ft_strcpy(char *dest, const char *src);
 char	*ft_strncpy(char *dest, char *src, unsigned int n);
 char	*ft_strcat(char *dest, const char *src);
@@ -39,8 +41,8 @@ char	*ft_strchr(const char *s, int c);
 char	*ft_strrchr(const char *s, int c);
 char	*ft_strstr(const char *haystack, const char *needle);
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
-void	*ft_memalloc(size_t size);
 char	*ft_strnew(size_t size);
+char	*ft_strmap(char const *s, char (*f)(char));
 /*--------------Start For testing--------------*/
 void	*ft_memalloc_t(size_t size);
 /*--------------End For testing--------------*/
