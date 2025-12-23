@@ -6,7 +6,7 @@
 /*   By: Said Boutayeb <sboutaye@student.1337.ma>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/17 20:14:57 by Said Boutayeb     #+#    #+#             */
-/*   Updated: 2025/09/19 20:09:38 by said-boutayeb    ###   ########.fr       */
+/*   Updated: 2025/09/19 21:09:21 by said-boutayeb    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #ifndef LIBFT_H
@@ -43,6 +43,7 @@ char	*ft_strstr(const char *haystack, const char *needle);
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
 char	*ft_strnew(size_t size);
 char	*ft_strmap(char const *s, char (*f)(char));
+char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 /*--------------Start For testing--------------*/
 void	*ft_memalloc_t(size_t size);
 /*--------------End For testing--------------*/

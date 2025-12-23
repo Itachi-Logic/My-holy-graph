@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strclr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: said-boutayeb <marvin@42.fr>               +#+  +:+       +#+        */
+/*   By: said-boutayeb <sboutaye@student.1337.ma>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/15 21:10:35 by said-boutayeb     #+#    #+#             */
-/*   Updated: 2025/09/17 19:53:30 by said-boutayeb    ###   ########.fr       */
+/*   Created: 2025/09/19 21:24:40 by said-boutayeb     #+#    #+#             */
+/*   Updated: 2025/09/19 21:24:50 by said-boutayeb    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

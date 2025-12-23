@@ -7,7 +7,7 @@
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 ![School](https://img.shields.io/badge/School-1337%20rabat-black)
-![Author](https://img.shields.io/badge/Author-sboutaye-orange)
+![Author](https://img.shields.io/badge/Author-Itachi--Logic-orange)
 
 ---
 
@@ -72,5 +72,5 @@ This is a summary of the core technologies and skills I am developing during thi
 
 ## 📞 Contact
 
-* **1337 Intra Profile:** `sboutaye`
-* **GitHub:** [@said-boutayeb](https://github.com/said-boutayeb)
+* **GitHub:** [@Itachi-Logic](https://github.com/Itachi-Logic)
+* **1337 Network:** Student at 1337 Rabat
