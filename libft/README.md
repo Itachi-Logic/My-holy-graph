@@ -7,7 +7,7 @@
 
 ![Grade](https://img.shields.io/badge/Grade-125%25-brightgreen)
 ![Language](https://img.shields.io/badge/Language-C-blue.svg)
-![Author](https://img.shields.io/badge/Author-sboutaye-orange)
+![Author](https://img.shields.io/badge/Author-Itachi--Logic-orange)
 
 ---
 
