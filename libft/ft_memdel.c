@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memdel.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Said Boutayeb <sboutaye@student.1337.ma>   +#+  +:+       +#+        */
+/*   By: Itachi-Logic <ILogic@student.1337.ma>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/06 17:26:45 by Said Boutayeb     #+#    #+#             */
-/*   Updated: 2025/09/12 20:11:27 by said-boutayeb    ###   ########.fr       */
+/*   Created: 2025/12/23 15:22:34 by Itachi-Logic      #+#    #+#             */
+/*   Updated: 2025/12/23 15:22:37 by Itachi-Logic     ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

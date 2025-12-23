@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Said Boutayeb <sboutaye@student.1337.ma>   +#+  +:+       +#+        */
+/*   By: Itachi-Logic <ILogic@student.1337.ma>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/08/24 17:54:36 by Said Boutayeb     #+#    #+#             */
-/*   Updated: 2025/09/17 18:36:50 by said-boutayeb    ###   ########.fr       */
+/*   Created: 2025/12/23 15:25:56 by Itachi-Logic      #+#    #+#             */
+/*   Updated: 2025/12/23 15:26:07 by Itachi-Logic     ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Said Boutayeb <sboutaye@student.1337.ma>   +#+  +:+       +#+        */
+/*   By: Itachi-Logic <ILogic@student.1337.ma>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/08/27 19:18:07 by Said Boutayeb     #+#    #+#             */
-/*   Updated: 2025/08/29 17:31:54 by Said Boutayeb    ###   ########.fr       */
+/*   Created: 2025/12/23 15:22:55 by Itachi-Logic      #+#    #+#             */
+/*   Updated: 2025/12/23 15:22:58 by Itachi-Logic     ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

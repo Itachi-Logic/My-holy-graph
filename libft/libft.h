@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Said Boutayeb <sboutaye@student.1337.ma>   +#+  +:+       +#+        */
+/*   By: Itachi-Logic <ILogic@student.1337.ma>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/08/17 20:14:57 by Said Boutayeb     #+#    #+#             */
-/*   Updated: 2025/09/19 21:09:21 by said-boutayeb    ###   ########.fr       */
+/*   Created: 2025/12/23 15:29:25 by Itachi-Logic      #+#    #+#             */
+/*   Updated: 2025/12/23 15:29:31 by Itachi-Logic     ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #ifndef LIBFT_H
 #define LIBFT_H
 #include <unistd.h>

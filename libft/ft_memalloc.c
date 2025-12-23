@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memalloc.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Said Boutayeb <sboutaye@student.1337.ma>   +#+  +:+       +#+        */
+/*   By: Itachi-Logic <ILogic@student.1337.ma>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/05 21:12:51 by Said Boutayeb     #+#    #+#             */
-/*   Updated: 2025/09/17 19:28:12 by said-boutayeb    ###   ########.fr       */
+/*   Created: 2025/12/23 15:21:56 by Itachi-Logic      #+#    #+#             */
+/*   Updated: 2025/12/23 15:22:02 by Itachi-Logic     ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

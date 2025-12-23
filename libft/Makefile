@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: Said Boutayeb <sboutaye@student.1337.ma>   +#+  +:+       +#+         #
+#    By: Itachi-Logic <ILogic@student.1337.ma>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2025/08/14 20:01:04 by Said Boutayeb     #+#    #+#              #
-#    Updated: 2025/09/19 21:06:42 by said-boutayeb    ###   ########.fr        #
+#    Created: 2025/12/23 15:29:56 by Itachi-Logic      #+#    #+#              #
+#    Updated: 2025/12/23 15:30:01 by Itachi-Logic     ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
